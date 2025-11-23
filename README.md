@@ -1,36 +1,64 @@
-# Campus Navigator
+# Contact Form Validation
 
-A simple web-based interactive campus navigation tool to help students
-and visitors locate buildings, departments, and facilities on campus.
+This project is a simple HTML, CSS, and JavaScript-based **Contact Form
+Validation** system.\
+It validates user inputs for Name, Email, and Message fields before
+allowing the form to be submitted.
 
-## Features
+## 📌 Features
 
--   Interactive campus map
--   Clickable buildings with info
--   Search functionality
--   Responsive UI
--   Lightweight and fast
+-   Real-time form validation
+-   Email validation using Regex
+-   Error messages for each field
+-   Success message on valid submission
+-   Fully responsive UI
+-   Clean and modern design
 
-## Tech Stack
+------------------------------------------------------------------------
 
--   HTML
--   CSS
--   JavaScript
--   Hosted on Rocket.new
+## 🛠 Technologies Used
 
-## How to Run
+-   **HTML5**
+-   **CSS3**
+-   **JavaScript**
 
-1.  Download the project files.
-2.  Open `index.html` in any browser.
-3.  No installation required.
+------------------------------------------------------------------------
 
-## Future Enhancements
+## 🚀 How It Works
 
--   Real-time navigation
--   QR-based building scanning
--   Mobile app version
--   Admin panel
+1.  User fills in Name, Email, and Message.
+2.  JavaScript checks:
+    -   If fields are empty
+    -   If email format is valid
+3.  Displays appropriate error messages.
+4.  Shows success message if everything is correct.
 
-## Author
+------------------------------------------------------------------------
 
-Team Name -- Hackathon Project
+## 📂 How to Run
+
+1.  Copy the entire HTML code into a file named `index.html`.
+2.  Save it.
+3.  Open the file in any modern browser (Chrome, Firefox, Edge, Safari).
+4.  Test the form inputs.
+
+------------------------------------------------------------------------
+
+## 📸 Screenshot (Optional)
+
+You can add a screenshot of your form here.
+
+------------------------------------------------------------------------
+
+## 📈 Future Enhancements
+
+-   Add backend to actually submit the form
+-   Add phone number validation
+-   Add form animations
+-   Connect with Firebase or Node.js API
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+Created for practice/demo purposes in a web development project.
